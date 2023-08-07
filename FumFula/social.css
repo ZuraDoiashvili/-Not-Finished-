@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200&family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chela+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Kanit", sans-serif;
+}
+body {
+  background-image: url(images/BackgroundSocial.jpg);
+}
+header nav {
+  margin-left: 40px;
+  transform: translateY(-40px);
+  width: fit-content;
+}
+header nav ul {
+  display: flex;
+  gap: 50px;
+}
+header nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 1000px) {
+  header nav ul {
+    gap: 30%;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  header nav ul {
+    transform: translateX(14%);
+  }
+}
+@media screen and (max-width: 540px) {
+  header nav ul {
+    transform: translateX(7%);
+  }
+}
+@media screen and (max-width: 430px) {
+  header nav ul {
+    transform: translateX(3%);
+  }
+}
+@media screen and (max-width: 390px) {
+  header nav ul {
+    transform: translateX(6%);
+  }
+  header nav ul li a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 310px) {
+  header nav ul {
+    transform: translateX(2%);
+  }
+}
+@media screen and (max-width: 1160px) {
+  header nav {
+    gap: 70%;
+  }
+}
+.logo-for-header {
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .logo-for-header {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo-for-header img {
+    display: none;
+  }
+  header nav {
+    transform: translateY(50px);
+    transform: translateX(150px);
+  }
+}
+@media screen and (max-width: 640px) {
+  header nav {
+    transform: translateX(130px);
+  }
+}
+.h1title {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  transform: translateY(40px);
+  font-size: 50px;
+  color: rgb(240, 129, 129);
+}
+.social-conteiner {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: fit-content;
+  margin-top: 80px;
+  gap: 100px;
+  margin-left: 30%;
+}
+@media screen and (max-width: 1980px) {
+  .social-conteiner {
+    margin-left: 38%;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .social-conteiner {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .social-conteiner {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .social-conteiner {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .social-conteiner {
+    margin-left: 24%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .social-conteiner {
+    margin-left: 20%;
+  }
+}
+.social-conteiner a {
+  font-family: "Chela One", cursive;
+  font-size: 40px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: rgb(196, 196, 196);
+  transition: 1.2s;
+}
+.social-conteiner a:hover {
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+.social-conteiner a:nth-child(1) {
+  color: red;
+}
+.social-conteiner a:nth-child(2) {
+  color: blueviolet;
+}
+.social-conteiner a:nth-child(3) {
+  color: rgb(0, 96, 240);
+}
+.social-conteiner a:nth-child(4) {
+  color: rgb(150, 5, 150);
+}
+@media screen and (max-width: 740px) {
+  .social-conteiner a {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 560px) {
+  header nav ul li a {
+    font-size: 15px;
+  }
+  header nav {
+    margin-left: 40px;
+  }
+  .social-conteiner a {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 440px) {
+  header nav ul {
+    gap: 40px;
+    transform: translateX(-10px);
+  }
+  .social-conteiner a {
+    transform: translateX(-20px);
+  }
+  header nav {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header nav ul {
+    gap: 20px;
+  }
+  header nav {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 389px) {
+  .social-conteiner a {
+    transform: translateX(-6%);
+    width: 230px;
+  }
+  .social-conteiner {
+    gap: 70px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .social-conteiner a {
+    transform: translateX(-3%);
+    width: 160px;
+    font-size: 30px;
+  }
+  header nav {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav {
+    gap: 90%;
+    transform: translateX(100px);
+  }
+}
+@media screen and (max-width: 390px) {
+  header nav {
+    margin-left: -5px;
+  }
+}
+@media screen and (max-width: 300px) {
+  header nav {
+    margin-left: -20px;
+  }
+}

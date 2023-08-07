@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200&family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chela+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Kanit", sans-serif;
+}
+body {
+  background-image: url(images/BackgroundSocial.jpg);
+}
+header nav {
+  margin-left: 40px;
+  transform: translateY(-40px);
+  width: fit-content;
+}
+header nav ul {
+  display: flex;
+  gap: 50px;
+}
+header nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 1000px) {
+  header nav ul {
+    gap: 30%;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  header nav ul {
+    transform: translateX(14%);
+  }
+}
+@media screen and (max-width: 540px) {
+  header nav ul {
+    transform: translateX(7%);
+  }
+}
+@media screen and (max-width: 430px) {
+  header nav ul {
+    transform: translateX(3%);
+  }
+}
+@media screen and (max-width: 390px) {
+  header nav ul {
+    transform: translateX(6%);
+  }
+  header nav ul li a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 310px) {
+  header nav ul {
+    transform: translateX(2%);
+  }
+}
+.logo-for-header {
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    .logo-for-header {
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 1160px) {
+  header nav {
+    gap: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo-for-header img {
+    display: none;
+  }
+  header nav {
+    transform: translateY(50px);
+    transform: translateX(150px);
+  }
+}
+@media screen and (max-width: 640px) {
+  header nav {
+    transform: translateX(130px);
+  }
+}
+@media screen and (max-width: 560px) {
+  header nav ul li a {
+    font-size: 15px;
+  }
+  header nav {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 440px) {
+  header nav ul {
+    gap: 40px;
+    transform: translateX(-10px);
+  }
+  header nav {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header nav ul {
+    gap: 20px;
+  }
+  header nav {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  header nav {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav {
+    gap: 90%;
+    transform: translateX(100px);
+  }
+}
+@media screen and (max-width: 390px) {
+  header nav {
+    margin-left: -5px;
+  }
+}
+@media screen and (max-width: 300px) {
+  header nav {
+    margin-left: -20px;
+  }
+}
